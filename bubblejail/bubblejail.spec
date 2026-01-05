@@ -3,7 +3,7 @@ Version:        0.10.1
 Release:        1%{?dist}
 Summary:        Bubblewrap based sandboxing for desktop applications
 
-License:        GPLv3+
+License:        GPL-3.0-or-later
 URL:            https://github.com/igo95862/bubblejail
 Source0:        %{url}/releases/download/%{version}/bubblejail-%{version}.tar.xz
 
