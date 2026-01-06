@@ -1,6 +1,6 @@
 Name:           bubblejail
 Version:        0.10.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Bubblewrap based sandboxing for desktop applications
 
 License:        GPL-3.0-or-later
@@ -63,6 +63,10 @@ Bubblejail is a bubblewrap-based alternative to Firejail.
 
 
 %changelog
+* Tue Jan 06 2026 wisp3rwind - 0.10.1-2
+- Fix install after igo95862/bubblejail#156
+- migrated to SPDX license
+
 * Sun Nov 02 2025 rusty-snake - 0.10.1-1
 - Update to 0.10.1
 
